@@ -7,6 +7,7 @@
       <a :href="github"
         ><h3>{{ name }}</h3></a
       >
+      <p>{{ description }}</p>
     </div>
   </div>
 </template>
@@ -14,7 +15,7 @@
 <script>
 export default {
   name: 'ProjectCard',
-  props: ['name', 'image', 'id', 'github']
+  props: ['name', 'image', 'id', 'github', 'description']
 }
 </script>
 
@@ -22,16 +23,16 @@ export default {
 .card {
   width: 200px;
   border-radius: 4px;
-  background-color: #000000;
+  background-color: cornflowerblue;
   cursor: pointer;
   transition: all 0.2s;
   margin: 10px;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 .card a:visited {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 .card:hover {

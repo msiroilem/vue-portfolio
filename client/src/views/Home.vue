@@ -10,6 +10,7 @@
         :name="project.name"
         :image="project.image"
         :github="project.github"
+        :description="project.description"
         @projectLink="projectLink"
       />
     </div>
@@ -32,24 +33,32 @@ export default {
       {
         id: 1,
         name: 'Movie Trivia',
+        description:
+          'A multiple choice movie trivia game built with HTML, CSS and vanilla JavaScript',
         github: 'https://github.com/msiroilem/Movie-Trivia',
         image: 'movietrivia.png'
       },
       {
         id: 2,
         name: 'Movie Database',
+        description:
+          'A movie database built using the MERN stack (MongoDB, Express, React and Node)',
         github: 'https://github.com/msiroilem/movieDatabase',
         image: 'moviedb.png'
       },
       {
         id: 3,
         name: 'Reviewr',
+        description:
+          'A music album review site created with the PERN stack (PostgreSQL, Express, React and Node)',
         github: 'https://github.com/msiroilem/Reviewr',
         image: 'reviewr.png'
       },
       {
         id: 4,
         name: 'BingeWatch',
+        description:
+          'A TV show review site built with Vue, Express, PostgreSQL and Node',
         github: 'https://github.com/msiroilem/bingewatch',
         image: 'bingewatch.png'
       }
@@ -73,6 +82,12 @@ export default {
         value: 'msiroilem',
         link: 'https://github.com/msiroilem/',
         icon: 'mdi-github'
+      },
+      {
+        name: 'Resume',
+        value: 'Tyler Jones',
+        link: '',
+        icon: 'mdi-ice-cream'
       }
     ]
   }),
