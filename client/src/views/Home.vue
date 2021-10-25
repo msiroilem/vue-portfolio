@@ -96,7 +96,7 @@ export default {
         value: 'Tyler Jones',
         link:
           'https://drive.google.com/file/d/1t3aitiBFEdjpcNqQCTHfT2kXbK29BOQ0/view?usp=sharing',
-        icon: 'mdi-ice-cream'
+        icon: 'mdi-file-download'
       }
     ]
   }),
