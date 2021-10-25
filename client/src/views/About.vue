@@ -1,7 +1,7 @@
 <template>
   <div class="about-wrapper">
     <h3>
-      Hi! I'm Tyler Jones, a software engineer.
+      Hi! I'm Tyler Jones, a software engineer. Test.
     </h3>
   </div>
 </template>
