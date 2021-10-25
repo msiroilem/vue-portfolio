@@ -9,7 +9,7 @@
         :key="project.id"
         :name="project.name"
         :image="project.image"
-        :github="project.github"
+        :deploy="project.deploy"
         :description="project.description"
         @projectLink="projectLink"
       />
@@ -35,7 +35,7 @@ export default {
         name: 'Movie Trivia',
         description:
           'A multiple choice movie trivia game built with HTML, CSS and vanilla JavaScript',
-        github: 'https://github.com/msiroilem/Movie-Trivia',
+        deploy: 'twj.surge.sh',
         image: 'movietrivia.png'
       },
       {
@@ -43,7 +43,7 @@ export default {
         name: 'Movie Database',
         description:
           'A movie database built using the MERN stack (MongoDB, Express, React and Node)',
-        github: 'https://github.com/msiroilem/movieDatabase',
+        deploy: 'https://peaceful-coast-33066.herokuapp.com/',
         image: 'moviedb.png'
       },
       {
@@ -51,7 +51,7 @@ export default {
         name: 'Reviewr',
         description:
           'A music album review site created with the PERN stack (PostgreSQL, Express, React and Node)',
-        github: 'https://github.com/msiroilem/Reviewr',
+        deploy: 'https://reviewrrr.herokuapp.com/',
         image: 'reviewr.png'
       },
       {
@@ -59,7 +59,7 @@ export default {
         name: 'BingeWatch',
         description:
           'A TV show review site built with Vue, Express, PostgreSQL and Node',
-        github: 'https://github.com/msiroilem/bingewatch',
+        deploy: 'https://bingewatched.herokuapp.com/',
         image: 'bingewatch.png'
       }
     ],

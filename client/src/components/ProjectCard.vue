@@ -4,7 +4,7 @@
       <img :src="image" :alt="name" />
     </div>
     <div class="info-wrapper flex-col">
-      <a :href="github"
+      <a :href="deploy"
         ><h3>{{ name }}</h3></a
       >
       <p>{{ description }}</p>
@@ -15,7 +15,7 @@
 <script>
 export default {
   name: 'ProjectCard',
-  props: ['name', 'image', 'id', 'github', 'description']
+  props: ['name', 'image', 'id', 'deploy', 'description']
 }
 </script>
 
