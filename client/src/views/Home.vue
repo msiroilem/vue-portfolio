@@ -35,7 +35,7 @@ export default {
         name: 'Movie Trivia',
         description:
           'A multiple choice movie trivia game built with HTML, CSS and vanilla JavaScript',
-        deploy: 'twj.surge.sh',
+        deploy: 'https://twj.surge.sh',
         image: 'movietrivia.png'
       },
       {
