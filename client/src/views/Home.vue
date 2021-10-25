@@ -10,8 +10,8 @@
         :name="project.name"
         :image="project.image"
         :deploy="project.deploy"
+        :github="project.github"
         :description="project.description"
-        @projectLink="projectLink"
       />
     </div>
     <template v-for="(contact, i) in contactLinks">
@@ -36,7 +36,9 @@ export default {
         description:
           'A multiple choice movie trivia game built with HTML, CSS and vanilla JavaScript',
         deploy: 'https://twj.surge.sh',
-        image: 'movietrivia.png'
+        github: 'https://github.com/msiroilem/Movie-Trivia',
+        image:
+          'https://res.cloudinary.com/dgrrqoexg/image/upload/c_scale,w_200/v1635195021/movietrivia_mqddlo.png'
       },
       {
         id: 2,
@@ -44,7 +46,9 @@ export default {
         description:
           'A movie database built using the MERN stack (MongoDB, Express, React and Node)',
         deploy: 'https://peaceful-coast-33066.herokuapp.com/',
-        image: 'moviedb.png'
+        github: 'https://github.com/msiroilem/movieDatabase',
+        image:
+          'https://res.cloudinary.com/dgrrqoexg/image/upload/c_scale,w_200/v1635195065/moviedb_cjlxyy.png'
       },
       {
         id: 3,
@@ -52,7 +56,9 @@ export default {
         description:
           'A music album review site created with the PERN stack (PostgreSQL, Express, React and Node)',
         deploy: 'https://reviewrrr.herokuapp.com/',
-        image: 'reviewr.png'
+        github: 'https://github.com/msiroilem/Reviewr',
+        image:
+          'https://res.cloudinary.com/dgrrqoexg/image/upload/c_scale,w_200/v1635195094/reviewr_akl8ps.png'
       },
       {
         id: 4,
@@ -60,7 +66,9 @@ export default {
         description:
           'A TV show review site built with Vue, Express, PostgreSQL and Node',
         deploy: 'https://bingewatched.herokuapp.com/',
-        image: 'bingewatch.png'
+        github: 'https://github.com/msiroilem/bingewatch',
+        image:
+          'https://res.cloudinary.com/dgrrqoexg/image/upload/c_scale,w_200/v1635195118/bingewatch_sqvh6j.png'
       }
     ],
     contactLinks: [
@@ -86,7 +94,8 @@ export default {
       {
         name: 'Resume',
         value: 'Tyler Jones',
-        link: '',
+        link:
+          'https://drive.google.com/file/d/1t3aitiBFEdjpcNqQCTHfT2kXbK29BOQ0/view?usp=sharing',
         icon: 'mdi-ice-cream'
       }
     ]

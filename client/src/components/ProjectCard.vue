@@ -1,12 +1,12 @@
 <template>
-  <div class="card" @click="projectLink()">
+  <div class="card">
     <div class="image-wrapper">
       <img :src="image" :alt="name" />
     </div>
     <div class="info-wrapper flex-col">
-      <a :href="deploy"
-        ><h3>{{ name }}</h3></a
-      >
+      <h3>{{ name }}</h3>
+      <a :href="deploy" target="_blank">Live Demo</a>
+      <a :href="github" target="_blank">GitHub</a>
       <p>{{ description }}</p>
     </div>
   </div>
@@ -15,7 +15,7 @@
 <script>
 export default {
   name: 'ProjectCard',
-  props: ['name', 'image', 'id', 'deploy', 'description']
+  props: ['name', 'image', 'id', 'deploy', 'github', 'description']
 }
 </script>
 
@@ -30,6 +30,10 @@ export default {
   text-align: center;
   color: #000000;
   text-decoration: none;
+}
+.card a {
+  margin: 10px;
+  color: white;
 }
 .card a:visited {
   color: #000000;
