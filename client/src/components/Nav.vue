@@ -2,11 +2,6 @@
   <nav>
     <router-link to="/" name="Home">Home</router-link>
     <router-link to="/about" name="About">About </router-link>
-    <a href="https://github.com/msiroilem/" target="_blank">GitHub</a>
-    <a href="https://linkedin.com/in/tylerwadejones" target="_blank"
-      >LinkedIn</a
-    >
-    <a href="mailto:twjones86@gmail.com">Email</a>
   </nav>
 </template>
 

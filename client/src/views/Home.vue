@@ -14,14 +14,20 @@
         @projectLink="projectLink"
       />
     </div>
+    <template v-for="(contact, i) in contactLinks">
+      <v-flex sm6 md4 xs12 :key="i">
+        <PContactInfo :contact="contact" />
+      </v-flex>
+    </template>
   </div>
 </template>
 
 <script>
 import ProjectCard from '../components/ProjectCard.vue'
+import PContactInfo from '../components/PContactInfo.vue'
 export default {
   name: 'Home',
-  components: { ProjectCard },
+  components: { ProjectCard, PContactInfo },
   data: () => ({
     projects: [
       {
@@ -48,8 +54,30 @@ export default {
         github: 'https://github.com/msiroilem/bingewatch',
         image: ''
       }
+    ],
+    contactLinks: [
+      {
+        name: 'Email',
+        value: 'twjones86@gmail.com',
+        link: 'mailto:twjones86@gmail.com',
+        icon: 'mdi-email'
+      },
+      {
+        name: 'LinkedIn',
+        value: 'Tyler Jones',
+        link: 'https://www.linkedin.com/in/tylerwadejones/',
+        icon: 'mdi-linkedin'
+      },
+
+      {
+        name: 'Github',
+        value: 'msiroilem',
+        link: 'https://github.com/msiroilem/',
+        icon: 'mdi-github'
+      }
     ]
   }),
+
   mounted() {},
   methods: {}
 }
