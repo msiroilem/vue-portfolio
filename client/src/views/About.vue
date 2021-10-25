@@ -1,9 +1,8 @@
 <template>
   <div class="about-wrapper">
     <h3>
-      Test
+      Hi! I'm Tyler Jones, a software engineer.
     </h3>
-    <p>Test</p>
   </div>
 </template>
 

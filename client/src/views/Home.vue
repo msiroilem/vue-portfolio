@@ -9,7 +9,6 @@
         :key="project.id"
         :name="project.name"
         :image="project.image"
-        :id="project.id"
         :github="project.github"
         @projectLink="projectLink"
       />
@@ -34,25 +33,25 @@ export default {
         id: 1,
         name: 'Movie Trivia',
         github: 'https://github.com/msiroilem/Movie-Trivia',
-        image: ''
+        image: 'movietrivia.png'
       },
       {
         id: 2,
         name: 'Movie Database',
         github: 'https://github.com/msiroilem/movieDatabase',
-        image: ''
+        image: 'moviedb.png'
       },
       {
         id: 3,
         name: 'Reviewr',
         github: 'https://github.com/msiroilem/Reviewr',
-        image: ''
+        image: 'reviewr.png'
       },
       {
         id: 4,
         name: 'BingeWatch',
         github: 'https://github.com/msiroilem/bingewatch',
-        image: ''
+        image: 'bingewatch.png'
       }
     ],
     contactLinks: [
