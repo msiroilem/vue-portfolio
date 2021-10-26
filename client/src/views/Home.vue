@@ -74,10 +74,19 @@ export default {
         id: 5,
         name: 'Vue RAWG',
         description: 'A video game database built with Vue',
-        deploy: 'vue-rawg.netlify.app',
+        deploy: 'https://vue-rawg.netlify.app',
         github: 'https://github.com/msiroilem/u4_hw_vue_RAWG',
         image:
           'https://res.cloudinary.com/dgrrqoexg/image/upload/c_scale,w_200/v1635208496/Screen_Shot_2021-10-25_at_8.34.47_PM_g935lj.png'
+      },
+      {
+        id: 6,
+        name: 'OpenBook',
+        description: 'A posts and comments site built with Vue and Flask',
+        deploy: 'https://boring-villani-28dc5e.netlify.app/',
+        github: 'https://github.com/msiroilem/OpenBook',
+        image:
+          'https://res.cloudinary.com/dgrrqoexg/image/upload/c_scale,w_200/v1635210349/Screen_Shot_2021-10-25_at_9.05.23_PM_cidijd.png'
       }
     ],
     contactLinks: [
