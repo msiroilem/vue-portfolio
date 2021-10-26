@@ -92,8 +92,8 @@ export default {
     contactLinks: [
       {
         name: 'Email',
-        value: 'twjones86@gmail.com',
-        link: 'mailto:twjones86@gmail.com',
+        value: 'twjtyler@gmail.com',
+        link: 'mailto:twjtyler@gmail.com',
         icon: 'mdi-email'
       },
       {
