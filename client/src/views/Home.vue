@@ -69,6 +69,15 @@ export default {
         github: 'https://github.com/msiroilem/bingewatch',
         image:
           'https://res.cloudinary.com/dgrrqoexg/image/upload/c_scale,w_200/v1635195118/bingewatch_sqvh6j.png'
+      },
+      {
+        id: 5,
+        name: 'Vue RAWG',
+        description: 'A video game database built with Vue',
+        deploy: 'vue-rawg.netlify.app',
+        github: 'https://github.com/msiroilem/u4_hw_vue_RAWG',
+        image:
+          'https://res.cloudinary.com/dgrrqoexg/image/upload/c_scale,w_200/v1635208496/Screen_Shot_2021-10-25_at_8.34.47_PM_g935lj.png'
       }
     ],
     contactLinks: [
