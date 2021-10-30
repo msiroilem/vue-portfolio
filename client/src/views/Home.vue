@@ -54,7 +54,7 @@ export default {
         id: 3,
         name: 'Reviewr',
         description:
-          'A music album review site created with the PERN stack (PostgreSQL, Express, React and Node)',
+          'A music album review site created with the PERN stack (PostgreSQL, Express, React and Node) You can try out the site with username: demo and password: reviewr-demo',
         deploy: 'https://reviewrrr.herokuapp.com/',
         github: 'https://github.com/msiroilem/Reviewr',
         image:
