@@ -81,6 +81,15 @@ export default {
       },
       {
         id: 6,
+        name: 'Rock Paper Scissors',
+        description: "It's rock, paper, scissors",
+        deploy: 'https://twj.vercel.app/',
+        github: 'https://github.com/msiroilem/u4_lab_vue_rock_paper_scissor',
+        image:
+          'https://res.cloudinary.com/dgrrqoexg/image/upload/v1635651406/Screen_Shot_2021-10-30_at_11.36.21_PM_ykfi2x.png'
+      },
+      {
+        id: 7,
         name: 'OpenBook',
         description: 'A posts and comments site built with Vue and Flask',
         deploy: 'https://boring-villani-28dc5e.netlify.app/',
