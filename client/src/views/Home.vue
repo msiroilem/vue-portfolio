@@ -86,7 +86,7 @@ export default {
         deploy: 'https://twj.vercel.app/',
         github: 'https://github.com/msiroilem/u4_lab_vue_rock_paper_scissor',
         image:
-          'https://res.cloudinary.com/dgrrqoexg/image/upload/v1635651406/Screen_Shot_2021-10-30_at_11.36.21_PM_ykfi2x.png'
+          'https://res.cloudinary.com/dgrrqoexg/image/upload/c_scale,w_200/v1635651406/Screen_Shot_2021-10-30_at_11.36.21_PM_ykfi2x.png'
       },
       {
         id: 7,
