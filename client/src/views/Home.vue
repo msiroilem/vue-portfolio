@@ -96,6 +96,15 @@ export default {
         github: 'https://github.com/msiroilem/OpenBook',
         image:
           'https://res.cloudinary.com/dgrrqoexg/image/upload/c_scale,w_200/v1635210349/Screen_Shot_2021-10-25_at_9.05.23_PM_cidijd.png'
+      },
+      {
+        id: 8,
+        name: 'Tic Tac Toe',
+        description: 'Tic Tac Toe',
+        deploy: 'https://twj-tictactoe.vercel.app/',
+        github: 'https://github.com/msiroilem/u1_hw_tic_tac_toe',
+        image:
+          'https://res.cloudinary.com/dgrrqoexg/image/upload/c_scale,w_200/v1635705998/Screen_Shot_2021-10-31_at_2.46.20_PM_kslx0e.png'
       }
     ],
     contactLinks: [
