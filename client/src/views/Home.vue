@@ -75,7 +75,7 @@ export default {
         name: 'Vue RAWG',
         description: 'A video game database built with Vue',
         deploy: 'https://vue-rawg.netlify.app',
-        github: 'https://github.com/msiroilem/u4_hw_vue_RAWG',
+        github: 'https://github.com/msiroilem/Vuedeo',
         image:
           'https://res.cloudinary.com/dgrrqoexg/image/upload/c_scale,w_200/v1635208496/Screen_Shot_2021-10-25_at_8.34.47_PM_g935lj.png'
       },
@@ -84,7 +84,7 @@ export default {
         name: 'Rock Paper Scissors',
         description: "It's rock, paper, scissors",
         deploy: 'https://twj.vercel.app/',
-        github: 'https://github.com/msiroilem/u4_lab_vue_rock_paper_scissor',
+        github: 'https://github.com/msiroilem/rockpaperscissors',
         image:
           'https://res.cloudinary.com/dgrrqoexg/image/upload/c_scale,w_200/v1635651406/Screen_Shot_2021-10-30_at_11.36.21_PM_ykfi2x.png'
       },
@@ -102,7 +102,7 @@ export default {
         name: 'Tic Tac Toe',
         description: 'Tic Tac Toe',
         deploy: 'https://twj-tictactoe.vercel.app/',
-        github: 'https://github.com/msiroilem/u1_hw_tic_tac_toe',
+        github: 'https://github.com/msiroilem/tictactoe',
         image:
           'https://res.cloudinary.com/dgrrqoexg/image/upload/c_scale,w_200/v1635705998/Screen_Shot_2021-10-31_at_2.46.20_PM_kslx0e.png'
       }
