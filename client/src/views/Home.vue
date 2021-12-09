@@ -1,24 +1,26 @@
 <template>
-  <div>
-    <header>
-      <h1>Projects</h1>
-    </header>
-    <div class="content">
-      <ProjectCard
-        v-for="project in projects"
-        :key="project.id"
-        :name="project.name"
-        :image="project.image"
-        :deploy="project.deploy"
-        :github="project.github"
-        :description="project.description"
-      />
+  <div class="yellow">
+    <div>
+      <header>
+        <h1>Projects</h1>
+      </header>
+      <div class="content">
+        <ProjectCard
+          v-for="project in projects"
+          :key="project.id"
+          :name="project.name"
+          :image="project.image"
+          :deploy="project.deploy"
+          :github="project.github"
+          :description="project.description"
+        />
+      </div>
+      <template v-for="(contact, i) in contactLinks">
+        <v-flex sm6 md4 xs12 :key="i">
+          <PContactInfo :contact="contact" />
+        </v-flex>
+      </template>
     </div>
-    <template v-for="(contact, i) in contactLinks">
-      <v-flex sm6 md4 xs12 :key="i">
-        <PContactInfo :contact="contact" />
-      </v-flex>
-    </template>
   </div>
 </template>
 
@@ -150,5 +152,8 @@ export default {
 }
 header {
   text-align: center;
+}
+.yellow {
+  background-color: #e4f872;
 }
 </style>
