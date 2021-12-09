@@ -147,6 +147,9 @@ export default {
 <style scoped>
 .content {
   display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
   flex-wrap: wrap;
   justify-content: center;
 }

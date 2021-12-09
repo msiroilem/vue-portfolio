@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <router-link to="/" name="Home">Home</router-link>
+    <router-link to="/" name="Home">TWJ</router-link>
     <router-link to="/about" name="About">About </router-link>
   </nav>
 </template>
@@ -23,5 +23,6 @@ nav a {
   color: #ffffff;
   text-decoration: none;
   font-weight: 800;
+  justify-content: space-between;
 }
 </style>

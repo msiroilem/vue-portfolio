@@ -36,7 +36,7 @@ export default {
   color: white;
 }
 .card a:visited {
-  color: #000000;
+  color: white;
   text-decoration: none;
 }
 .card:hover {
