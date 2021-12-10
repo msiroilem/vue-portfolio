@@ -21,3 +21,10 @@ export default {
   })
 }
 </script>
+
+<style>
+main {
+  background: #e4f872;
+  height: 100vh;
+}
+</style>

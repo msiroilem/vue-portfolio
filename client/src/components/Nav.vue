@@ -13,14 +13,14 @@ export default {
 
 <style scoped>
 nav {
-  background: #000000;
+  background: #e4f872;
   padding: 1em;
   text-align: center;
   color: #ffffff;
 }
 nav a {
   margin: 1em;
-  color: #ffffff;
+  color: black;
   text-decoration: none;
   font-weight: 800;
   justify-content: space-between;
