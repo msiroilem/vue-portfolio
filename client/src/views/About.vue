@@ -97,12 +97,41 @@
         </div>
       </div>
     </div>
+    <!-- <div>
+      <template v-for="(contact, i) in contactLinks">
+        <v-flex sm6 md4 xs12 :key="i">
+          <PContactInfo :contact="contact" />
+        </v-flex>
+      </template>
+    </div> -->
+    <div class="lang1">
+      Languages
+      <p class="lang2">JavaScript / CSS / Python / HTML / SQL</p>
+    </div>
+    <div class="frameworks">
+      Frameworks and Libraries
+      <p class="frameworks2">React/Redux + Vue/Vuex + Express</p>
+    </div>
+    <div class="databases">
+      Databases
+      <p class="databases2">
+        MongoDB/Mongoose / PostgreSQL/Sequelize / Flask/SQLAlchemy
+      </p>
+    </div>
+    <div class="tools">
+      Tools
+      <p class="tools2">
+        Node / Git / GitHub / Heroku / Vercel / Surge / Netlify / NPM / VSCode
+      </p>
+    </div>
   </div>
 </template>
 
 <script>
+import PContactInfo from '../components/PContactInfo.vue'
 export default {
-  name: 'About'
+  name: 'About',
+  components: PContactInfo
 }
 </script>
 
@@ -167,5 +196,44 @@ body {
 .demo {
   margin-top: 20px;
   font-size: 23px;
+}
+.test {
+  background-color: blue;
+}
+.lang1 {
+  margin-top: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+.lang2 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+.frameworks {
+  margin-top: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+.frameworks2 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+.databases {
+  margin-top: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+.databases2 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+.tools {
+  margin-top: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+.tools2 {
+  margin-top: 20px;
+  font-size: 25px;
 }
 </style>
