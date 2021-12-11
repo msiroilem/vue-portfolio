@@ -25,6 +25,7 @@ export default {
 <style>
 main {
   background: #e4f872;
-  height: 100vh;
+  /* height: 100vh; */
+  padding: 0px 20px;
 }
 </style>

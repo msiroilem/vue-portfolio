@@ -21,12 +21,21 @@
         </v-flex>
       </template>
     </div>
+    <ProjectInfo
+      v-for="project in projects"
+      :key="project.id"
+      :title="project.title"
+      :description="project.description"
+      :technologies="project.technologies"
+    />
   </div>
 </template>
 
 <script>
 import ProjectCard from '../components/ProjectCard.vue'
 import PContactInfo from '../components/PContactInfo.vue'
+// import ProjectInfo from '../components/ProjectInfo.vue'
+
 export default {
   name: 'Home',
   components: { ProjectCard, PContactInfo },
