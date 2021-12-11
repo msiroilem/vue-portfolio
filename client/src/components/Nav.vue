@@ -3,9 +3,6 @@
     <router-link class="link" to="/" name="Home">TWJ</router-link>
     <div class="navOptions">
       <router-link to="/about" name="About">About</router-link>
-      <div>
-        Some other link
-      </div>
     </div>
   </header>
 </template>
