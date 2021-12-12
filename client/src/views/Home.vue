@@ -142,7 +142,7 @@ export default {
         name: 'Resume',
         value: 'Tyler Jones',
         link:
-          'https://drive.google.com/file/d/1t3aitiBFEdjpcNqQCTHfT2kXbK29BOQ0/view?usp=sharing',
+          'https://drive.google.com/file/d/10uE19wfYURTThGsVS4ELJhcNI5czZ9Wn/view?usp=sharing',
         icon: 'mdi-file-download'
       }
     ]
@@ -154,10 +154,19 @@ export default {
 </script>
 
 <style scoped>
+div {
+  align-content: center;
+}
+h1 {
+  text-align: center;
+}
 .content {
   display: flex;
   flex-wrap: wrap;
   justify-self: stretch;
+  display: grid;
+  grid-column-start: 2;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 header {
   text-align: center;

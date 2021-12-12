@@ -97,13 +97,13 @@
         </div>
       </div>
     </div>
-    <!-- <div>
+    <div>
       <template v-for="(contact, i) in contactLinks">
         <v-flex sm6 md4 xs12 :key="i">
           <PContactInfo :contact="contact" />
         </v-flex>
       </template>
-    </div> -->
+    </div>
     <div class="lang1">
       Languages
       <p class="lang2">JavaScript / CSS / Python / HTML / SQL</p>
